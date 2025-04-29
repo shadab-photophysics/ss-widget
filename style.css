@@ -282,6 +282,7 @@ svg {
   grid-auto-rows: min-content;
   grid-auto-columns: min-content;
   display: grid;
+  background: #004f95;
   grid-template-areas:
     "parallel parallel"
     "bulgetitle bulgetitle"
@@ -380,11 +381,6 @@ svg {
   flex: 1;
   background: #9e247b;
   border-style: solid;
-}
-
-#bulge {
-  position: absolute;
-  background: #004f95;
 }
 
 @media (max-width: 480px) {
